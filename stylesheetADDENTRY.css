@@ -1,0 +1,157 @@
+/* =========================
+   WHOLE PAGE / GENERAL
+   ========================= */
+
+body {
+  background-image: url("Images/3rdWallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Google Sans", sans-serif;
+}
+
+/* =========================
+   NAVIGATION BAR
+   ========================= */
+
+nav {
+  background-color: rgb(206, 201, 201);
+  width: 100%;
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+}
+
+#small-logo {
+  width: 7rem;
+  height: auto;
+}
+
+nav span {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 130%;
+  font-style: italic;
+}
+
+nav a {
+  margin-left: 0.75rem;
+  text-decoration: none;
+  color: black;
+  border: solid white;
+  padding: 0.5%;
+}
+
+#login {
+  font-size: 120%;
+  border-color: black;
+  padding: 0.45%;
+}
+
+
+/* =========================
+   MAIN CONTENT / BLOG FORM
+   ========================= */
+
+#login-status {
+  width: 60%;
+  margin: 2rem auto 0 auto;
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(206, 201, 201);
+}
+
+#login-status p {
+  margin: 0.3rem;
+}
+
+form {
+  width: 60%;
+  margin: 2rem auto 0 auto;
+}
+
+form fieldset {
+  border: 1px solid black;
+  margin: 0.75rem;
+}
+
+form fieldset:first-of-type {
+  padding: 1rem;
+}
+
+form fieldset fieldset {
+  padding: 1rem;
+}
+
+legend {
+  background-color: rgb(154, 149, 149);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.4rem 8rem;
+}
+
+form p {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.missing-field {
+  border: 2px solid red;
+  background-color: rgb(255, 230, 230);
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(154, 149, 149);
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  border: solid black;
+}
+
+
+/* =========================
+   CONTACT FOOTER
+   ========================= */
+
+#contact {
+  width: 85%;
+  margin-left: 3rem;
+  margin-top: 4rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+#contact img {
+  width: 3rem;
+  border: solid black;
+}
+
+#freepik-credit {
+  grid-column: 1 / 4;
+  justify-self: center;
+  color: black;
+  font-size: 0.9rem;
+}

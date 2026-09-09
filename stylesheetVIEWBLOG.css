@@ -1,0 +1,179 @@
+/* =========================
+   WHOLE PAGE / GENERAL
+   ========================= */
+
+body {
+  background-image: url("Images/3rdWallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "Google Sans", sans-serif;
+}
+
+
+/* =========================
+   NAVIGATION BAR
+   ========================= */
+
+nav {
+  background-color: rgb(206, 201, 201);
+  width: 100%;
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+}
+
+#small-logo {
+  width: 7rem;
+  height: auto;
+}
+
+nav span {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 130%;
+  font-style: italic;
+}
+
+nav a {
+  margin-left: 0.75rem;
+  text-decoration: none;
+  color: black;
+  border: solid white;
+  padding: 0.5%;
+}
+
+#login {
+  font-size: 120%;
+  border-color: black;
+  padding: 0.45%;
+}
+
+
+/* =========================
+   BLOG POSTS
+   ========================= */
+
+#blog-section {
+  width: 65%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: rgb(230, 227, 227);
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#add-post-link {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#add-post-link a {
+  color: black;
+  font-weight: bold;
+}
+
+#preview-links {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#preview-links a {
+  color: black;
+  font-weight: bold;
+  margin: 0 0.75rem;
+}
+
+#preview-heading {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#archive-form {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#archive-form label {
+  font-weight: bold;
+}
+
+#archive-form select {
+  margin-left: 0.5rem;
+  padding: 0.3rem;
+}
+
+#archive-form button {
+  background-color: rgb(154, 149, 149);
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  color: white;
+  font-weight: bold;
+  border: solid black;
+}
+
+.blog-post {
+  padding: 0.5rem;
+}
+
+.post-date {
+  color: rgb(85, 85, 85);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.post-title {
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 0.4rem;
+}
+
+.post-body {
+  color: black;
+  font-size: 1rem;
+  margin-top: 0.6rem;
+  line-height: 1.4;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 1rem 0;
+}
+
+
+/* =========================
+   CONTACT FOOTER
+   ========================= */
+
+#contact {
+  width: 85%;
+  margin-left: 3rem;
+  margin-top: 4rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+#contact img {
+  width: 3rem;
+  border: solid black;
+}
+
+#freepik-credit {
+  grid-column: 1 / 4;
+  justify-self: center;
+  color: black;
+  font-size: 0.9rem;
+}

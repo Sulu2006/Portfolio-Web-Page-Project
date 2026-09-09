@@ -1,0 +1,15 @@
+html, body, header, nav, main, section, footer,
+h1, h2, h3, div, span, figure, figcaption, img, a,
+form, fieldset, legend, article, p, label, button,
+table, caption, thead, tbody, tfoot, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}

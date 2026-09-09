@@ -1,0 +1,174 @@
+/* =========================
+   WHOLE PAGE / GENERAL
+   ========================= */
+
+body {
+  background-image: url("Images/3rdWallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Google Sans", sans-serif;
+}
+
+
+/* =========================
+   NAVIGATION BAR
+   ========================= */
+
+nav {
+  background-color: rgb(206, 201, 201);
+  width: 100%;
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+  font-family: "Google Sans", sans-serif;
+}
+
+#small-logo {
+  width: 7rem;
+  height: auto;
+}
+
+nav span {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 130%;
+  font-style: italic;
+}
+
+nav a {
+  margin-left: 0.75rem;
+  text-decoration: none;
+  color: black;
+  border: solid white;
+  padding: 0.5%;
+}
+
+#login {
+  font-size: 120%;
+  border-color: black;
+  padding: 0.45%;
+}
+
+
+/* =========================
+   MAIN CONTENT / SHARED WIDTH
+   ========================= */
+
+#skills-text,
+#skills-intro,
+#skills-section,
+#contact {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skills-content {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 2rem;
+}
+
+
+/* =========================
+   PAGE TITLE
+   ========================= */
+
+#skills-text {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+/* =========================
+   INTRO SECTION
+   ========================= */
+
+#skills-intro {
+  border: solid 2px rgb(206, 201, 201);
+  padding: 1.5rem;
+}
+
+
+/* =========================
+   SKILLS SECTION
+   ========================= */
+
+#skills-section {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 2rem;
+}
+
+#skills-section h2 {
+  font-size: 2rem;
+}
+
+#skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.skills-box {
+  border: solid 2px rgb(206, 201, 201);
+  padding: 1.5rem;
+  min-height: 14rem;
+}
+
+.skills-box h3 {
+  margin-bottom: 1rem;
+}
+
+.skills-box p {
+  margin-bottom: 1rem;
+}
+
+
+/* =========================
+   INNER SKILLS GRID
+   ========================= */
+
+#skills-inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  border: solid 1px rgb(206, 201, 201);
+}
+
+.mini-skill-box {
+  border: solid 1px rgb(206, 201, 201);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+
+/* =========================
+   CONTACT FOOTER
+   ========================= */
+
+#contact {
+  width: 85%;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+#contact img {
+  width: 3rem;
+  border: solid black;
+}
+
+#freepik-credit {
+  grid-column: 1 / 4;
+  justify-self: center;
+  color: black;
+  font-size: 0.9rem;
+}

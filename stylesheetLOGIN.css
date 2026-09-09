@@ -1,0 +1,136 @@
+/* =========================
+   WHOLE PAGE / GENERAL
+   ========================= */
+
+body {
+  background-image: url("Images/3rdWallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Google Sans", sans-serif;
+}
+
+
+/* =========================
+   NAVIGATION BAR
+   ========================= */
+
+nav {
+  background-color: rgb(206, 201, 201);
+  width: 100%;
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+}
+
+#small-logo {
+  width: 7rem;
+  height: auto;
+}
+
+nav span {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 130%;
+  font-style: italic;
+}
+
+nav a {
+  margin-left: 0.75rem;
+  text-decoration: none;
+  color: black;
+  border: solid white;
+  padding: 0.5%;
+}
+
+#login {
+  font-size: 120%;
+  border-color: black;
+  padding: 0.45%;
+}
+
+
+/* =========================
+   MAIN CONTENT / LOGIN FORM
+   ========================= */
+
+form {
+  width: 35rem;
+  margin-top: 6rem;
+  margin-left: 30rem;
+  text-align: center;
+}
+
+form fieldset {
+  border: 1px solid black;
+  margin: 0.75rem;
+}
+
+form fieldset:first-of-type {
+  padding: 1rem;
+}
+
+form fieldset fieldset {
+  padding: 1rem;
+}
+
+legend {
+  background-color: rgb(154, 149, 149);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.4rem 3rem;
+}
+
+form p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.button {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+button {
+  background-color: rgb(154, 149, 149);
+  color: white;
+  font-weight: bold;
+  border: solid black;
+  padding: 0.5rem 1rem;
+}
+
+
+/* =========================
+   CONTACT FOOTER
+   ========================= */
+
+#contact {
+  width: 85%;
+  margin-left: 3rem;
+  margin-top: 7rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+#contact img {
+  width: 3rem;
+  border: solid black;
+}
+
+#freepik-credit {
+  grid-column: 1 / 4;
+  justify-self: center;
+  color: black;
+  font-size: 0.9rem;
+}

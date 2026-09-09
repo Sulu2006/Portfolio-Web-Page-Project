@@ -1,0 +1,163 @@
+/* =========================
+   WHOLE WEBSITE / SHARED
+   ========================= */
+
+main {
+  display: grid;
+  grid-template-rows: 90vh 88vh;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+
+/* =========================
+   BOTH SECTIONS / GENERAL IMAGES
+   ========================= */
+
+#about img {
+  width: 15rem;
+  height: auto;
+  border: solid lightblue;
+}
+
+
+/* =========================
+   FIRST PAGE / WELCOME SECTION
+   ========================= */
+
+#welcome {
+  background-image: url("Images/Wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#big-logo {
+  width: 30rem;
+  height: auto;
+  margin-top: 2.5rem;
+}
+
+
+/* =========================
+   NAVIGATION BAR
+   ========================= */
+
+nav {
+  background-color: rgb(206, 201, 201);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Google Sans", sans-serif;
+}
+
+#small-logo {
+  width: 7rem;
+  height: auto;
+}
+
+nav span {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 130%;
+  font-style: italic;
+}
+
+nav a {
+  margin-left: 0.75rem;
+  text-decoration: none;
+  color: black;
+  border: solid white;
+  padding: 0.5%;
+}
+
+#login {
+  font-size: 120%;
+  border-color: black;
+  padding: 0.45%;
+}
+
+
+/* =========================
+   SECOND PAGE / ABOUT SECTION
+   ========================= */
+
+#about {
+  border-top: solid lightblue 0.1rem;
+  background-image: url("Images/Wallpaper (1).jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Google Sans", sans-serif;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-content: center;
+  gap: 5rem;
+}
+
+#about article {
+  max-width: 30rem;
+}
+
+figure {
+  text-align: center;
+}
+
+#AboutMe {
+  padding-bottom: 2rem;
+  font-size: 150%;
+}
+
+
+/* =========================
+   SECOND PAGE / ABOUT GRID
+   ========================= */
+
+#about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.about-box {
+  border: solid 0.1rem lightblue;
+  padding: 1rem;
+  min-height: 5rem;
+}
+
+
+/* =========================
+   PAGE FOOTER / CONTACT
+   ========================= */
+
+#contact {
+  width: 85%;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+#contact img {
+  width: 3rem;
+  border: solid black;
+}
+
+#freepik-credit {
+  grid-column: 1 / 4;
+  justify-self: center;
+  color: black;
+  font-size: 0.9rem;
+}

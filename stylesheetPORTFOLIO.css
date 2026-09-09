@@ -1,0 +1,122 @@
+/* =========================
+   WHOLE PAGE / GENERAL
+   ========================= */
+
+body {
+  background-image: url("Images/3rdWallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Google Sans", sans-serif;
+}
+
+/* =========================
+   NAVIGATION BAR
+   ========================= */
+
+nav {
+  background-color: rgb(206, 201, 201);
+  width: 100%;
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+}
+
+#small-logo {
+  width: 7rem;
+  height: auto;
+}
+
+nav span {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 130%;
+  font-style: italic;
+}
+
+nav a {
+  margin-left: 0.75rem;
+  text-decoration: none;
+  color: black;
+  border: solid white;
+  padding: 0.5%;
+}
+
+#login {
+  font-size: 120%;
+  border-color: black;
+  padding: 0.45%;
+}
+
+
+/* =========================
+   MAIN CONTENT / PORTFOLIO TABLE
+   ========================= */
+
+table {
+  border: solid 1pt black;
+  border-collapse: separate;
+  border-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+
+caption {
+  border: solid 1pt black;
+  background-color: rgb(206, 201, 201);
+  font-size: 125%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+th {
+  background-color: rgb(235, 233, 233);
+  border: solid 1pt black;
+  padding: 5pt;
+  vertical-align: middle;
+}
+
+td {
+  border: solid 1pt black;
+  padding: 5pt;
+  vertical-align: middle;
+  text-align: center;
+}
+
+tfoot {
+  background-color: rgb(235, 233, 233);
+}
+
+table img {
+  width: 4rem;
+  height: auto;
+}
+
+
+/* =========================
+   CONTACT FOOTER
+   ========================= */
+
+#contact {
+  width: 85%;
+  margin-left: 3rem;
+  margin-top: 19rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+#contact img {
+  width: 3rem;
+  border: solid black;
+}
+
+#freepik-credit {
+  grid-column: 1 / 4;
+  justify-self: center;
+  color: black;
+  font-size: 0.9rem;
+}

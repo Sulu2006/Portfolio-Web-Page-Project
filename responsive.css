@@ -1,0 +1,112 @@
+/* =========================
+   RESPONSIVE LAYOUT
+   ========================= */
+
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+  }
+
+  #small-logo {
+    width: 5rem;
+  }
+
+  nav span {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  nav a,
+  #login {
+    margin: 0.25rem;
+    padding: 0.4rem;
+    font-size: 1rem;
+  }
+
+  #contact {
+    width: 90%;
+    margin: 2rem auto;
+    justify-content: center;
+  }
+
+  main {
+    grid-template-rows: auto auto;
+  }
+
+  #welcome {
+    min-height: 28rem;
+  }
+
+  #big-logo {
+    width: 75%;
+    max-width: 20rem;
+  }
+
+  #about {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  #about-grid,
+  #qualification-grid,
+  #education-inner-grid,
+  #skills-grid,
+  #skills-inner-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #education-text,
+  #education-intro,
+  #qualifications-section,
+  #skills-text,
+  #skills-intro,
+  #skills-section,
+  #login-status,
+  form,
+  #blog-section {
+    width: 90%;
+  }
+
+  form {
+    margin: 2rem auto;
+  }
+
+  legend {
+    padding: 0.4rem 2rem;
+  }
+
+  table {
+    width: 90%;
+    margin-top: 3rem;
+  }
+
+  th,
+  td {
+    padding: 0.4rem;
+  }
+
+  #archive-form select,
+  #archive-form button {
+    margin-top: 0.5rem;
+  }
+
+  #preview-links a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
